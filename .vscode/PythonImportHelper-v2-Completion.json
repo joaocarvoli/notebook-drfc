@@ -1,0 +1,92 @@
+[
+    {
+        "label": "Cluster",
+        "importPath": "diagrams",
+        "description": "diagrams",
+        "isExtraImport": true,
+        "detail": "diagrams",
+        "documentation": {}
+    },
+    {
+        "label": "Diagram",
+        "importPath": "diagrams",
+        "description": "diagrams",
+        "isExtraImport": true,
+        "detail": "diagrams",
+        "documentation": {}
+    },
+    {
+        "label": "Edge",
+        "importPath": "diagrams",
+        "description": "diagrams",
+        "isExtraImport": true,
+        "detail": "diagrams",
+        "documentation": {}
+    },
+    {
+        "label": "Robomaker",
+        "importPath": "diagrams.aws.robotics",
+        "description": "diagrams.aws.robotics",
+        "isExtraImport": true,
+        "detail": "diagrams.aws.robotics",
+        "documentation": {}
+    },
+    {
+        "label": "Sagemaker",
+        "importPath": "diagrams.aws.ml",
+        "description": "diagrams.aws.ml",
+        "isExtraImport": true,
+        "detail": "diagrams.aws.ml",
+        "documentation": {}
+    },
+    {
+        "label": "Custom",
+        "importPath": "diagrams.custom",
+        "description": "diagrams.custom",
+        "isExtraImport": true,
+        "detail": "diagrams.custom",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "diagrams.onprem.client",
+        "description": "diagrams.onprem.client",
+        "isExtraImport": true,
+        "detail": "diagrams.onprem.client",
+        "documentation": {}
+    },
+    {
+        "label": "Python",
+        "importPath": "diagrams.programming.language",
+        "description": "diagrams.programming.language",
+        "isExtraImport": true,
+        "detail": "diagrams.programming.language",
+        "documentation": {}
+    },
+    {
+        "label": "Docker",
+        "importPath": "diagrams.onprem.container",
+        "description": "diagrams.onprem.container",
+        "isExtraImport": true,
+        "detail": "diagrams.onprem.container",
+        "documentation": {}
+    },
+    {
+        "label": "graph_attr",
+        "kind": 5,
+        "importPath": "docs.architecture-general",
+        "description": "docs.architecture-general",
+        "peekOfCode": "graph_attr = {\n    \"fontsize\": \"20\",\n    \"bgcolor\": \"transparent\"\n}\nwith Diagram(\"Architecture Diagram\", outformat=\"pdf\", graph_attr=graph_attr):\n    user = User()\n    with Cluster(\"On Premise Server\"):\n        with Cluster(\"Jupyter Environment\"):\n            jupyter_notebook = Custom(\"Jupyter Notebook\", \"./assets/jupyter-logo.png\")\n            libs = Python(\"Built modules\")",
+        "detail": "docs.architecture-general",
+        "documentation": {}
+    },
+    {
+        "label": "reward_function",
+        "kind": 2,
+        "importPath": "reward_function",
+        "description": "reward_function",
+        "peekOfCode": "def reward_function(params):\n    reward = 2\n    return float(reward)",
+        "detail": "reward_function",
+        "documentation": {}
+    }
+]
